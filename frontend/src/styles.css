@@ -1,0 +1,26 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+.header{
+background:#020617;
+padding:20px;
+border-bottom:2px solid #22c55e;
+}
+
+.dashboard{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:12px;
+box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
